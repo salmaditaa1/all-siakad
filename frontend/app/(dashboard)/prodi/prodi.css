@@ -1,0 +1,75 @@
+body {
+  background: #f3f3f3;
+}
+
+.container {
+  width: 900px;
+  margin: 30px auto;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.title {
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.userbox {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.logout {
+  background: #ff3b4d;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+}
+
+.btnTambah {
+  background: #00cc44;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  background: white;
+}
+
+.table th,
+.table td {
+  border: 1px solid black;
+  padding: 12px;
+  text-align: center;
+}
+
+.table th {
+  background: #eaeaea;
+}
+
+.btnEdit {
+  background: orange;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-right: 5px;
+}
+
+.btnHapus {
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+}

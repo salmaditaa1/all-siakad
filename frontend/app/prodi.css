@@ -1,0 +1,40 @@
+.container {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.btnTambah {
+  background: green;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  border: 1px solid #ccc;
+  padding: 12px;
+}
+
+.table th {
+  background: #f0f0f0;
+  color: black;
+}

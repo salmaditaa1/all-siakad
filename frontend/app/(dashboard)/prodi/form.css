@@ -1,0 +1,58 @@
+body {
+  background: #f3f3f3;
+}
+
+.formCard {
+  width: 420px;
+  margin: 30px auto;
+  background: white;
+  padding: 25px;
+  border: 1px solid #ddd;
+}
+
+.formTitle {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.formGroup {
+  margin-bottom: 15px;
+}
+
+.formGroup label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.formGroup input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #888;
+}
+
+.btnPrimary {
+  background: #2f80ed;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  cursor: pointer;
+}
+
+.btnWarning {
+  background: orange;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  cursor: pointer;
+}
+
+.btnSecondary {
+  background: #d9d9d9;
+  color: black;
+  border: none;
+  padding: 10px 25px;
+  margin-left: 10px;
+  cursor: pointer;
+}
